@@ -54,9 +54,9 @@ public class Alumno {
     // Método main para probar la clase
     public static void main(String[] args) {
         // Ejemplo de uso
-        int[] calificacionesAlumno = {85, 92, 78, 88, 95};
+        int[] calificacionesAlumno = {90, 75, 93, 100, 91};
 
-        Alumno alumno = new Alumno("Juan Perez", calificacionesAlumno);
+        Alumno alumno = new Alumno("Jose Luis Villanueva", calificacionesAlumno);
         alumno.imprimirResultados();
     }
 }
